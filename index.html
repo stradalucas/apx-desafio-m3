@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío Módulo 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+                <div>
+                    <a href="#welcome">
+                        <img class="logo" src="./images/logoHeader.svg" alt="Logo" />
+                    </a>
+                </div>
+
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav class="menu">
+                    <a href="#about-me">Quien soy</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#form">Escribime</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="section-welcome" id="welcome">
+        <div class="container">
+            <div class="row">
+
+                <h1 class="title">Bienvenidxs <br>a mi site </h1>
+                <img class="personal-image" src="./images/retrato.png" alt="Personal-Image" />
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about-me" id="about-me">
+        <div class="container">
+            <div class="row">
+
+                <div class="check">
+                    <img src="./images/Check.svg" alt="Check" />
+                </div>
+
+                <div class="about-me">
+                    <h2 class="subtitle">Soy Marce</h2>
+                    <p class="description-about-me">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet
+                        aliquet lacus.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-services" id="services">
+        <div class="container">
+
+            <h2 class="subtitle-services">Mis servicios</h2>
+
+            <div class="row">
+
+                <div class="service-container">
+                    <img class="img-desktop" src="./images/desktop.svg" alt="Desktop" />
+                    <h3 class="featured-services">Hago cosas</h3>
+                    <p class="service-description">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.
+                    </p>
+                </div>
+
+                <div class="service-container">
+                    <img class="img-desktop" src="./images/desktop.svg" alt="Desktop" />
+                    <h3 class="featured-services">Y más cosas</h3>
+                    <p class="service-description">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.
+                    </p>
+                </div>
+
+                <div class="service-container">
+                    <img class="img-desktop" src="./images/desktop.svg" alt="Desktop" />
+                    <h3 class="featured-services">Y también otras cosas</h3>
+                    <p class="service-description">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form" id="form">
+        <div class="container">
+            <div class="row">
+
+                <div>
+                    <h2 class="subtitle-form">Escribime</h2>
+                </div>
+
+                <form method="POST" autocomplete="off" class="container-form">
+                    <!--Name-->
+                    <div class="fieldset">
+                        <label for="name" class="label">NOMBRE</label>
+                        <input class="input-form" id="name" type="text" required />
+                    </div>
+
+                    <!-- Email -->
+                    <div class="fieldset">
+                        <label class="label" for="email">EMAIL</label>
+                        <input class="input-form" id="email" type="email" required />
+                    </div>
+
+                    <!-- Mensaje -->
+                    <div class="fieldset">
+                        <label class="label" for="textarea">MENSAJE</label>
+                        <textarea class="textarea input-form" id="textarea" required></textarea>
+                    </div>
+
+                    <!-- Button -->
+                    <div>
+                        <button class="button-form" type="submit">Enviar</button>
+                    </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div>
+                    <a href="#welcome">
+                        <img class="logo-footer" src="./images/logoFooter.svg" alt="Logo" />
+                    </a>
+                    <p class="copyright">© 2021 - Lucas Strada - DFW - APX</p>
+                </div>
+
+                <div class="social-container">
+
+                    <ul>
+
+                        <li>
+                            <a href="#footer">
+                                <img src="./images/ig.png" alt="instagram-logo" />Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footer">
+                                <img src="./images/linkedin.png" alt="linkedin-logo" />Linkedin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footer">
+                                <img src="./images/github.png" alt="github-logo" />GitHub
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
